@@ -65,5 +65,6 @@ Running Selenium Automation Tests:
 1. Prerequisites: Ensure Java JDK 11+, Maven, and Chrome Browser are installed.
 2. Clone the repository:
    ```bash
-   git https://github.com/Hasan-Al-Khaled/SQA-Master-Portfolio.git
-
+    https://github.com/Hasan-Al-Khaled/SQA-Master-Portfolio
+   
+- LinkedIn: https://www.linkedin.com/in/md-hasan-al-khaled
