@@ -59,11 +59,34 @@ It typically includes:
 Here’s a Mermaid flowchart you can use directly:
 
 ```mermaid
-flowchart TD
+   flowchart TD
     A[Requirement Analysis] --> B[Test Planning]
     B --> C[Test Case Design]
     C --> D[Test Environment Setup]
     D --> E[Test Execution]
-    E --> F[Defect Reporting & Tracking]
-    F --> G[Test Closure]
+    E --> F[Test Cycle Closure]
+
+    %% Requirement Analysis
+    A --> A1{"Activities:\n- Analyze requirements\n- Identify testable items\n- Define entry/exit criteria"}
+    A --> A2{"Deliverables:\n- Requirement Traceability Matrix (RTM)\n- Automation feasibility report"}
+
+    %% Test Planning
+    B --> B1{"Activities:\n- Define scope & objectives\n- Estimate effort & cost\n- Identify risks\n- Prepare test plan"}
+    B --> B2{"Deliverables:\n- Test Plan\n- Effort estimation\n- Risk mitigation plan"}
+
+    %% Test Case Design
+    C --> C1{"Activities:\n- Design test cases & scripts\n- Create test data\n- Update RTM"}
+    C --> C2{"Deliverables:\n- Test Cases\n- Test Data\n- Updated RTM"}
+
+    %% Test Environment Setup
+    D --> D1{"Activities:\n- Identify environment needs\n- Configure hardware/software\n- Prepare test environment"}
+    D --> D2{"Deliverables:\n- Test Environment ready\n- Smoke test results"}
+
+    %% Test Execution
+    E --> E1{"Activities:\n- Execute test cases\n- Log defects\n- Retest & regression testing"}
+    E --> E2{"Deliverables:\n- Test Execution Report\n- Defect Reports\n- Updated RTM"}
+
+    %% Test Cycle Closure
+    F --> F1{"Activities:\n- Evaluate exit criteria\n- Analyze test results\n- Prepare test summary\n- Lessons learned"}
+    F --> F2{"Deliverables:\n- Test Summary Report\n- Test Closure Report\n- Metrics & Lessons Learned"}
 ```
