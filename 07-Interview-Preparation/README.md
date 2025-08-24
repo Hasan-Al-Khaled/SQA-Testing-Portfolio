@@ -4,7 +4,7 @@ This directory contains comprehensive **interview preparation materials** for So
 
 ## 📂 What's Inside
 
-```
+``
 07-Interview-Preparation/
 ├── README.md                     # This file - interview prep overview
 ├── Resume-Cover-Letter/
