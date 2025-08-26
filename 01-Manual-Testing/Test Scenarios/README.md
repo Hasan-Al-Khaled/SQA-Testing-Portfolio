@@ -1,5 +1,5 @@
 
-# 📋 Amazon.in E-commerce Testing Project
+# 📋 Amazon.in E-commerce Platform Testing Project
 
 ## 📋 Project Overview
 
