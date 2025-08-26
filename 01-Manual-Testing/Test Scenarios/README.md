@@ -84,7 +84,7 @@
 
 ## 📁 Project Files
 
-[📥 Download Excel Template](Amazon-Test-Scenarios.xlsx) | [📋 Download CSV Version](Amazon-Test-Scenarios.csv)
+[📥 Download Excel Template](Amazon-E-commerce Platform Testing -Scenarios.xlsx) | [📋 Download CSV Version](Amazon-E-commerce Platform Testing -Scenarios.csv)
 
 ## 👨‍💻 About the Project
 
