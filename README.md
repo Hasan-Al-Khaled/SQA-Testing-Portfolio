@@ -1,5 +1,9 @@
 # 🧪 SQA Testing Portfolio | MD Hasan Al Khaled
 
+[![Profile Views](https://komarev.com/ghpvc/?username=hasanalkhaled&color=blue&style=flat-square)](https://github.com/hasanalkhaled)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://linkedin.com/in/hasanalkhaled)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail)](mailto:hasanalkhalednirob@gmail.com)
+
 ![SQA Testing](https://img.shields.io/badge/SQA-Testing%20Portfolio-brightgreen?style=for-the-badge)
 ![Manual Testing](https://img.shields.io/badge/Manual%20Testing-Expert-blue?style=for-the-badge)
 ![API Testing](https://img.shields.io/badge/API%20Testing-Postman-orange?style=for-the-badge)
