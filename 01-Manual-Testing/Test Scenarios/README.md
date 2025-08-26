@@ -12,11 +12,6 @@
 | **Creation Date** | 26-08-2025 |
 | **Approval Date** | 27-08-2025 |
 
-
-
-
-
-
 ## 📊 Test Scenarios Overview
 
 | Test Scenario ID | Test Scenario Description | Priority | Test Cases |
@@ -84,7 +79,7 @@
 
 ## 📁 Project Files
 
-[📥 Download Excel Template](Amazon-E-commerce Platform Testing -Scenarios.xlsx) | [📋 Download CSV Version](Amazon-E-commerce Platform Testing -Scenarios.csv)
+[📥 Download Excel Template](Amazon-E-commerce-Platform-Testing-Scenarios.xlsx) | [📋 Download CSV Version](Amazon-E-commerce-Platform-Testing-Scenarios.csv)
 
 ## 👨‍💻 About the Project
 
