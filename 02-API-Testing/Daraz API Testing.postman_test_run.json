@@ -1,0 +1,219 @@
+{
+	"id": "0ddd4400-b1e6-44db-8089-80141b32e82b",
+	"name": "Daraz API Testing",
+	"timestamp": "2025-09-12T23:31:04.714Z",
+	"collection_id": "48305761-ce53d72a-8054-4362-9b23-2d7d373a437d",
+	"folder_id": 0,
+	"environment_id": "48305761-d3e16614-14a6-4d64-a07b-2e1a9d100db7",
+	"totalPass": 33,
+	"delay": "500",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-09-12T23:30:54.940Z",
+	"totalFail": 6,
+	"results": [
+		{
+			"id": "8a66abfb-63c3-4926-8e1d-73570dada3b1",
+			"name": "Search Mobile",
+			"url": "https://www.daraz.com.bd/catalog/?ajax=true&isFirstRequest=true&page=1&q={{laptop}}\n",
+			"time": 442,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time < 2000ms": true,
+				"Valid JSON response": true,
+				"Items array exists": true,
+				"At least one result returned": true,
+				"First item has title/name": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time < 2000ms": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Valid JSON response": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Items array exists": {
+					"pass": 3,
+					"fail": 0
+				},
+				"At least one result returned": {
+					"pass": 3,
+					"fail": 0
+				},
+				"First item has title/name": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				446,
+				501,
+				442
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time < 2000ms": true,
+					"Valid JSON response": true,
+					"Items array exists": true,
+					"At least one result returned": true,
+					"First item has title/name": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time < 2000ms": true,
+					"Valid JSON response": true,
+					"Items array exists": true,
+					"At least one result returned": true,
+					"First item has title/name": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time < 2000ms": true,
+					"Valid JSON response": true,
+					"Items array exists": true,
+					"At least one result returned": true,
+					"First item has title/name": true
+				}
+			]
+		},
+		{
+			"id": "c539126a-84a6-4a3e-bc75-a467e0948b4d",
+			"name": "Search Products",
+			"url": "https://www.daraz.com.bd/catalog/?ajax=true&isFirstRequest=true&page=1&q={{search_query}}",
+			"time": 197,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time < 2000ms": true,
+				"Valid JSON response": true,
+				"Items array exists": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Response time < 2000ms": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Valid JSON response": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Items array exists": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				184,
+				195,
+				197
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time < 2000ms": true,
+					"Valid JSON response": true,
+					"Items array exists": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time < 2000ms": true,
+					"Valid JSON response": true,
+					"Items array exists": true
+				},
+				{
+					"Status code is 200": true,
+					"Response time < 2000ms": true,
+					"Valid JSON response": true,
+					"Items array exists": true
+				}
+			]
+		},
+		{
+			"id": "1d36c85d-6a15-4353-9514-d7918ff26d8e",
+			"name": "Get Product Details",
+			"url": "https://www.daraz.com.bd/products/{{first_product_id}}",
+			"time": 149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Product has title": false,
+				"Product has price": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				},
+				"Product has title": {
+					"pass": 0,
+					"fail": 3
+				},
+				"Product has price": {
+					"pass": 0,
+					"fail": 3
+				}
+			},
+			"times": [
+				135,
+				148,
+				149
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Product has title": false,
+					"Product has price": false
+				},
+				{
+					"Status code is 200": true,
+					"Product has title": false,
+					"Product has price": false
+				},
+				{
+					"Status code is 200": true,
+					"Product has title": false,
+					"Product has price": false
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 2397,
+	"collection": {
+		"requests": [
+			{
+				"id": "8a66abfb-63c3-4926-8e1d-73570dada3b1",
+				"method": "GET"
+			},
+			{
+				"id": "c539126a-84a6-4a3e-bc75-a467e0948b4d",
+				"method": "GET"
+			},
+			{
+				"id": "1d36c85d-6a15-4353-9514-d7918ff26d8e",
+				"method": "GET"
+			}
+		]
+	}
+}
