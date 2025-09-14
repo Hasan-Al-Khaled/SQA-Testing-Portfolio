@@ -1,0 +1,20 @@
+{
+	"info": {
+		"_postman_id": "dddebfba-d002-4776-a451-36b762893899",
+		"name": "JSONPlaceholder API Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "48305761",
+		"_collection_link": "https://www.postman.com/hak-nirob-1393229/workspace/sqa-master-apis/collection/48305761-dddebfba-d002-4776-a451-36b762893899?action=share&source=collection_link&creator=48305761"
+	},
+	"item": [
+		{
+			"name": "Get All Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://jsonplaceholder.typicode.com/users"
+			},
+			"response": []
+		}
+	]
+}
